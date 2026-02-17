@@ -1,0 +1,17 @@
+# render.yaml
+
+# Configuration for automatic deployment to Render
+
+services:
+  - type: web
+    name: Maadurgadairy Service
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    gitRepository:
+      branch: main
+      repo: Maadurgadairy/Maadurgadairy
