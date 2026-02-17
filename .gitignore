@@ -1,0 +1,28 @@
+# Node.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# dotenv environment variable file
+.env
+
+# Next.js
+.cache
+.flowconfig
+.next
+
+# Yarn
+.yarn-integrity
+
+# Build output
+dist
+build
+
+# Other
+.DS_Store
+.vscode/
